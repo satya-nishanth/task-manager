@@ -11,7 +11,7 @@ const MONGO_URI = process.env.MONGO_URI;
     throw new Error('mongo url is empty');
   }
   try {
-    await mongoose.connect(MONGO_URI, { dbName: 'task-manager' });
+    await mongoose.connect(MONGO_URI, { dbName: process.env.DB_NAME });
     app.listen(PORT, () => {
       console.log('running at ' + PORT);
     });
