@@ -37,13 +37,14 @@ No environment variables are required for the frontend to run in prod mode. Howe
 
  **Clone the Repository:**
    ```
-   git clone https://github.com/your-repository/task-manager.git
+   git clone git@github.com:satya-nishanth/task-manager.git
    cd task-manager
    ```
 
 ## Starting the Service
 
-To start the full application, ensuring both frontend and backend are serving:
+To start the full application, ensuring both frontend and backend are serving
+ run npm start at root folder:
 ```
 npm start
 ```
