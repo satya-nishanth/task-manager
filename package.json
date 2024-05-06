@@ -1,0 +1,14 @@
+{
+  "name": "reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fe": "cd frontend && npm ci && npm run build",
+    "be": "cd backend && npm ci && npm start",
+    "start": "npm run fe && npm run be"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
